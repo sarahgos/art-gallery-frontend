@@ -1,0 +1,11 @@
+.home-heading {
+    color: white;
+}
+
+.home-button {
+    padding: 15px;
+    border-radius: 10px;
+    background-color:#e08d3c;
+    font-size: large;
+    font-weight: bold;
+}
