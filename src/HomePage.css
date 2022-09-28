@@ -8,4 +8,12 @@
     background-color:#e08d3c;
     font-size: large;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.list {
+    color:white;
+    font-size: large;
+    padding: 8px;
 }
