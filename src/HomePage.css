@@ -17,3 +17,30 @@
     font-size: large;
     padding: 8px;
 }
+
+.sub-heading {
+    color:#e08d3c;
+    font-size:x-large;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.list-button {
+    padding: 10px;
+    background-color: #242124;
+    color: white;
+    border: none;
+}
+
+.detail-button {
+    padding: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    background-color:#1C1A1C;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}

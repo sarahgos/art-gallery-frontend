@@ -1,12 +1,15 @@
 import './App.css';
 import Header from './Header';
-import HomePage from './HomePage';
+import FetchArtistData from './FetchArtistData';
+import FetchExhibitionData from './FetchExhibitionData';
 
 function App() {
   return (
     <div className='App'>
       <Header />
-      <HomePage />
+      <FetchArtistData />
+      <br></br>
+      <FetchExhibitionData />
     </div>
   );
 }
