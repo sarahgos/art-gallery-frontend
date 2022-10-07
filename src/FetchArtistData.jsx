@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './HomePage.css';
 
-const FetchArtistData = (props) => {
+const FetchArtistData = () => {
 
     const startText = 'See all artists';
     const [artistData, setArtistData] = useState([]);
@@ -54,7 +54,7 @@ const FetchArtistData = (props) => {
     }
 
     return (
-        <div>
+        <div className='home-div'>
             <h2 className="home-heading">Browse our Artists</h2>
             <button className='home-button' onClick={formSubmit}>{buttonText}</button>
             <br></br>

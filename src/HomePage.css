@@ -1,3 +1,15 @@
+.home-div {
+    border-style: solid;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background: #2f2b2f;
+    border-width: 1px;
+}
+
 .home-heading {
     color: white;
 }
@@ -26,10 +38,11 @@
 }
 
 .list-button {
-    padding: 10px;
+    padding: 15px;
     background-color: #242124;
     color: white;
     border: none;
+    border-radius: 5px;
 }
 
 .detail-button {

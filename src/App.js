@@ -9,6 +9,8 @@ function App() {
       <Header />
       <FetchArtistData />
       <br></br>
+      <br></br>
+      <br></br>
       <FetchExhibitionData />
     </div>
   );

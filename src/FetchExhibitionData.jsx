@@ -26,7 +26,7 @@ const FetchExhibitionData = (props) => {
             return;
         }
 
-        await fetch ('http://localhost:3000/exhibition', {
+        await fetch ('http://localhost:3000/exhibitions', {
         })
         .then (response => response.json())
         .then(data => {
@@ -43,7 +43,7 @@ const FetchExhibitionData = (props) => {
 
     const getExhibitionWorks = async(exhibition_id, i) => {
 
-        await fetch ('http://localhost:3000/exhibition-artefacts/' + exhibition_id, {
+        await fetch ('http://localhost:3000/exhibitions-artefacts/' + exhibition_id, {
         })
         .then (response => response.json())
         .then(data => {
@@ -82,7 +82,7 @@ const FetchExhibitionData = (props) => {
     }
 
     return (
-        <div>
+        <div className='home-div'>
             <h2 className="home-heading">Browse our Exhibitions</h2>
             <button className='home-button' onClick={formSubmit}>{buttonText}</button>
             <br></br>
